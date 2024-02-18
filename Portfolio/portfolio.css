@@ -1,0 +1,308 @@
+body {
+    margin: 0;
+    background-color: #3e3e3e;
+  }
+
+  @font-face {
+    font-family: "San Francisco";
+    font-family: "Gotham";
+    font-family: "Poppins";
+    font-family: "Plus Jakarta Sans";
+    font-weight: 400;
+    src: url("https://applesocial.s3.amazonaws.com/assets/styles/fonts/sanfrancisco/sanfranciscodisplay-regular-webfont.woff");
+  }
+
+nav{
+    background-color: black;
+    max-width: 1520px;
+    margin: auto;
+    padding: 2rem 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color:beige;
+    font-family: "Gotham";
+}
+
+a{
+    color: inherit;
+}
+nav img{
+    
+    position: relative;
+    max-width: 1520px;
+    max-height: 150px;
+    top: 0%;
+    left:0%;
+
+}
+
+nav ul{
+    list-style: none;
+    padding: .2em 0;
+    margin-left: 30%;
+}
+
+ul.top_head li{
+    margin-top: 5%;
+    display: inline-flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 3rem;
+    flex-direction: row;
+    text-shadow:black;
+    
+
+}
+
+ul.top_head li a
+{
+text-shadow: black;
+text-decoration: none;
+color: #FFF;
+padding: .2em 1em;
+border-right: 1px solid #fff;
+}
+
+ul.top_head li a:hover
+{
+text-shadow: grey;
+color:grey;
+}
+
+  
+ h1 {
+    font-family: "Bebas Neue", cursive;
+    font-size: 80px;
+  }
+  h1.hi-there-name {
+    margin-bottom: -5px;
+  }
+  .color-of-hi-there {
+    color: #ebeef2;
+  }
+  .color-of-myname {
+    color: #859315;
+  }
+  h3 {
+    font-family: "Roboto", sans-serif;
+    color: #3e3e3e;
+  }
+  h3.short-about-me {
+    padding-bottom: 40px;
+    width: 60%;
+    color: white;
+  }
+  .big-section {
+    height: 400px;
+    padding: 80px 100px;
+    background-color: black;
+  }
+  .big-section-1 {
+    height: 600px;
+    padding: 80px 100px;
+    background-color: black;
+  }
+  .big-section-2 {
+    height: 600px;
+    padding: 80px 100px 120px 100px;
+  }
+  .small-section {
+    height: 300px;
+    padding-top: 50px;
+    padding-bottom: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .small-section-1 {
+    height: 300px;
+    padding-top: 50px;
+    padding-bottom: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+  }
+  .half-width {
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+    color: #3e3e3e;
+  }
+
+  .half-width-1 {
+    width: 20%;
+    float: right;
+    margin-left: 5%;
+    color: #3e3e3e;
+    margin-bottom: 10
+  }
+  .myphoto-s {
+    width: 75%;
+  }
+  .link-button {
+    padding: 20px 60px;
+    border-radius: 5px;
+    background-color:#859315;
+    text-decoration: none;
+    font-family: "Roboto", sans-serif;
+    font-weight: bold;
+    color: white;
+  }
+
+  
+  h2.about-text-color {
+    font-family: "Bebas Neue", cursive;
+    font-size: 48px;
+    color: #859315;
+  }
+
+  #about{
+    background-color: black;
+  }
+  h3.long-about-me {
+    padding-bottom: 40px;
+    color:white;
+  }
+  .about-s2 {
+    margin-left: 12%;
+  }
+ 
+  .banner-s3 {
+    background-color: black;
+  }
+  h2.latest-project {
+    font-family: "Bebas Neue", cursive;
+    font-size: 48px;
+    text-align: center;
+    color: #859315;
+  }
+  span.h2-text-color {
+    color: white;
+  }
+  span.h2-text-color1{
+    color:white;
+  }
+  .latest-project-div-style {
+    height: 80%;
+    width: 30%;
+    background-color: white;
+    float: left;
+    margin: 15px;
+    border-radius: 15px;
+    box-shadow: 8px 8px 40px gray;
+  }
+  .latest-project-div-style-margin {
+    margin-left: 35px;
+  }
+  .latest-project-photo {
+    width: 90%;
+    margin: 18px 18px 0px 18px;
+  }
+  .latest-project-text {
+    padding-left: 20px;
+  }
+  .latest-project-div-style p {
+    font-family: "Roboto", sans-serif;
+    font-size: 15px;
+    padding-left: 20px;
+    color: #6c6c6c;
+  }
+  
+  .my-skills {
+    font-family: "Bebas Neue", cursive;
+    font-size: 48px;
+    text-align: center;
+    color: #859315;
+  }
+  .skills-p {
+    font-family: "Roboto", sans-serif;
+    font-weight: 600;
+    color:white;
+  }
+  .container {
+    width: 100%;
+    border-radius: 10px;
+    color: #3e3e3e;
+  }
+  .skills {
+    font-family: "Roboto", sans-serif;
+    text-align: right;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 10px;
+    color: white;
+  }
+  .html {
+    width: 80%;
+    background-color: white;
+  }
+  .css {
+    width: 70%;
+    background-color:#859315;
+  }
+ 
+  .team-management {
+    width: 85%;
+    background-color: white;
+  }
+  .critical-thinking {
+    width: 80%;
+    background-color:#859315;
+  }
+  .problem-solving {
+    width: 50%;
+    background-color: white;
+  }
+  .communication {
+    width: 90%;
+    background-color:#859315;
+  }
+  
+  
+  
+  .div-size-s4 {
+    height: 236px;
+    width: 950px;
+    background-image: url("shapes/Group_33094_1.png");
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+  .work-inquiry-s4 {
+    font-family: "Bebas Neue", cursive;
+    font-size: 64px;
+    color: white;
+  }
+  
+  p.stay-connected {
+    font-family: "Bebas Neue", cursive;
+    font-size: 24px;
+    color: white;
+    text-align: center;
+  }
+  p.footer-mail {
+    font-family: "Roboto", sans-serif;
+    font-size: 36px;
+    font-weight: bold;
+    text-align: center;
+    color: #859315;
+    margin: -2px;
+  }
+  img.footer-image-size {
+    height: 38px;
+    width: 38px;
+    padding: 10px;
+  }
+  footer {
+    padding-bottom: 60px;
+  }
+  .footer-image-position {
+    padding-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
